@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(/images/drums.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.key {
+    background-color: transparent;
+    color: #ffc600;
+    font-size: 0.8rem;
+    width: 7.5em;
+    height: 7.5em;
+    padding-bottom: 0.5em;
+    transition: all 0.07s ease;
+    text-transform: uppercase;
+    border: none;
+}
+
+.key-letter {
+    margin: 0.5em 0;
+    color: #fff;
+}
+
+.playing {
+    transform: scale(1.05);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-wrap: wrap;
+    }
+} ;

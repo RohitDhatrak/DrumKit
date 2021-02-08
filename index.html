@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Drum Kit</title>
+        <link rel="stylesheet" href="/main.css" />
+    </head>
+    <body>
+        <div class="container">
+            <button data-key="KeyA" class="key">
+                <h2 class="key-letter">A</h2>
+                Clap
+            </button>
+            <button data-key="KeyS" class="key">
+                <h2 class="key-letter">S</h2>
+                HiHat</button
+            ><button data-key="KeyD" class="key">
+                <h2 class="key-letter">D</h2>
+                Kick
+            </button>
+            <button data-key="KeyF" class="key">
+                <h2 class="key-letter">F</h2>
+                OpenHat</button
+            ><button data-key="KeyG" class="key">
+                <h2 class="key-letter">G</h2>
+                Boom
+            </button>
+            <button data-key="KeyH" class="key">
+                <h2 class="key-letter">H</h2>
+                Ride</button
+            ><button data-key="KeyJ" class="key">
+                <h2 class="key-letter">J</h2>
+                Snare
+            </button>
+            <button data-key="KeyK" class="key">
+                <h2 class="key-letter">K</h2>
+                Tom</button
+            ><button data-key="KeyL" class="key">
+                <h2 class="key-letter">L</h2>
+                Tink
+            </button>
+        </div>
+
+        <audio data-key="KeyA" src="/sounds/clap.wav"></audio>
+        <audio data-key="KeyS" src="/sounds/hihat.wav"></audio>
+        <audio data-key="KeyD" src="/sounds/kick.wav"></audio>
+        <audio data-key="KeyF" src="/sounds/openhat.wav"></audio>
+        <audio data-key="KeyG" src="/sounds/boom.wav"></audio>
+        <audio data-key="KeyH" src="/sounds/ride.wav"></audio>
+        <audio data-key="KeyJ" src="/sounds/snare.wav"></audio>
+        <audio data-key="KeyK" src="/sounds/tom.wav"></audio>
+        <audio data-key="KeyL" src="/sounds/tink.wav"></audio>
+    </body>
+    <script src="/app.js"></script>
+</html>
